@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Main_Title.Text" xml:space="preserve">
-    <value>Main</value>
+    <value>Office365 inställningar</value>
     <comment>Page title for Main</comment>
   </data>
   <data name="Shell_Main" xml:space="preserve">
-    <value>Main</value>
+    <value>Office365 inställningar</value>
     <comment>Navigation view item name for Main</comment>
   </data>
   <data name="Calendars_Title.Text" xml:space="preserve">
-    <value>Calendars</value>
+    <value>Välj Kalender</value>
     <comment>Page title for Calendars</comment>
   </data>
   <data name="Shell_Calendars" xml:space="preserve">
-    <value>Calendars</value>
+    <value>Kalendrar</value>
     <comment>Navigation view item name for Calendars</comment>
   </data>
   <data name="Today_Title.Text" xml:space="preserve">
@@ -146,7 +146,7 @@
     <comment>Page title for week</comment>
   </data>
   <data name="Shell_week" xml:space="preserve">
-    <value>week</value>
+    <value>Visa kalender</value>
     <comment>Navigation view item name for week</comment>
   </data>
   <data name="Start_Title.Text" xml:space="preserve">
@@ -158,11 +158,11 @@
     <comment>Navigation view item name for Start</comment>
   </data>
   <data name="about_Title.Text" xml:space="preserve">
-    <value>about</value>
+    <value>Om</value>
     <comment>Page title for about</comment>
   </data>
   <data name="Shell_about" xml:space="preserve">
-    <value>about</value>
+    <value>Om</value>
     <comment>Navigation view item name for about</comment>
   </data>
   <data name="ExceptionSettingsStorageExtensionsFileNameIsNullOrEmpty" xml:space="preserve">
@@ -189,37 +189,40 @@
     <value>Light</value>
     <comment>Light theme text for Settings</comment>
   </data>
-  <data name="Settings_About.Text" xml:space="preserve">    
+  <data name="Settings_About.Text" xml:space="preserve">
     <value>About this application</value>
     <comment>About this application title for Settings</comment>
   </data>
-  <data name="Settings_AboutDescription.Text" xml:space="preserve">    
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
     <value>Settings page placeholder text.  Your app description goes here.</value>
     <comment>About this application description for Settings</comment>
   </data>
-  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">    
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
     <value>Privacy Statement</value>
     <comment>Privacy Statement link content for Settings</comment>
   </data>
-  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">  
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
     <value>https://YourPrivacyUrlGoesHere/</value>
     <comment>Here is your Privacy Statement url for Settings</comment>
   </data>
-  <data name="Settings_Personalization.Text" xml:space="preserve">   
+  <data name="Settings_Personalization.Text" xml:space="preserve">
     <value>Personalization</value>
     <comment>Personalization text for Settings</comment>
   </data>
-  <data name="ExceptionEnumToBooleanConverterValueMustBeAnEnum" xml:space="preserve">   
+  <data name="ExceptionEnumToBooleanConverterValueMustBeAnEnum" xml:space="preserve">
     <value>value must be an Enum!</value>
     <comment>Value must be an Enum in enum to boolean converter</comment>
   </data>
-  <data name="ExceptionEnumToBooleanConverterParameterMustBeAnEnumName" xml:space="preserve">   
+  <data name="ExceptionEnumToBooleanConverterParameterMustBeAnEnumName" xml:space="preserve">
     <value>parameter must be an Enum name!</value>
     <comment>Parameter must be an Enum name in enum to boolean converter</comment>
   </data>
-  NavigateUri
   <data name="Shell_Settings" xml:space="preserve">
-    <value>Settings</value>
+    <value>Inställningar</value>
     <comment>Navigation view item name for Settings</comment>
+  </data>
+  <data name="Calendar_loading" xml:space="preserve">
+    <value>Getting apointmaints</value>
+    <comment>Spinner för hjämtning av bokningar</comment>
   </data>
 </root>

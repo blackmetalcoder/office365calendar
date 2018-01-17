@@ -107,11 +107,9 @@ namespace Office365Calendar.Views
             // Or to use an IconElement instead of a Symbol see https://github.com/Microsoft/WindowsTemplateStudio/blob/master/docs/projectTypes/navigationpane.md
             // Edit String/en-US/Resources.resw: Add a menu item title for each page
             _primaryItems.Add(ShellNavigationItem.FromType<MainPage>("Shell_Main".GetLocalized(), Symbol.Document));
-            _primaryItems.Add(ShellNavigationItem.FromType<CalendarsPage>("Shell_Calendars".GetLocalized(), Symbol.Document));
-            _primaryItems.Add(ShellNavigationItem.FromType<TodayPage>("Shell_Today".GetLocalized(), Symbol.Document));
-            _primaryItems.Add(ShellNavigationItem.FromType<weekPage>("Shell_week".GetLocalized(), Symbol.Document));
-            _primaryItems.Add(ShellNavigationItem.FromType<StartPage>("Shell_Start".GetLocalized(), Symbol.Document));
-            _primaryItems.Add(ShellNavigationItem.FromType<aboutPage>("Shell_about".GetLocalized(), Symbol.Document));
+            _primaryItems.Add(ShellNavigationItem.FromType<CalendarsPage>("Shell_Calendars".GetLocalized(), Symbol.Calendar));
+            _primaryItems.Add(ShellNavigationItem.FromType<weekPage>("Shell_week".GetLocalized(), Symbol.CalendarWeek));
+            _primaryItems.Add(ShellNavigationItem.FromType<aboutPage>("Shell_about".GetLocalized(), Symbol.ContactInfo));
             _secondaryItems.Add(ShellNavigationItem.FromType<SettingsPage>("Shell_Settings".GetLocalized(), Symbol.Setting));
         }
 
